@@ -71,13 +71,7 @@ div > p {
   flex-direction: column;
   gap: 30px;
 }
-h2 {
-  font-size: 36px;
-  line-height: 54px;
-  letter-spacing: 0.25px;
-  text-align: center;
-}
-h1 {
+h1,h2 {
   font-size: 36px;
   line-height: 54px;
   text-align: center;
