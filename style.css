@@ -29,7 +29,7 @@ section {
   margin: 0;
 }
 .table {
-  padding-top: 80px;
+  padding-block: 80px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -38,7 +38,7 @@ section {
 .flx article {
   width: 350px;
   height: 250px;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
   border-radius: 8px;
 }
@@ -83,31 +83,25 @@ h1 {
   text-align: center;
   letter-spacing: 0.25px;
 }
-div > article:first-child {
+.green {
   background-image: url(./images/icon-supervisor.svg),
     linear-gradient(0deg, rgba(255, 255, 255, 1) 98.4%, #44d3d2 1.6%);
-  background-repeat: no-repeat;
-  background-position: right 32px bottom 32px, top;
 }
-.flxm article:nth-child(1) {
+.red {
   background: url(./images/icon-team-builder.svg),
     linear-gradient(0deg, rgba(255, 255, 255, 1) 98.4%, #ea5454 1.6%);
-  background-repeat: no-repeat;
-  background-position: right 32px bottom 32px, top;
 }
-.flxm article:nth-child(2) {
+.yellow {
   background: url(./images/icon-karma.svg),
     linear-gradient(0deg, rgba(255, 255, 255, 1) 98.4%, #fcae4a 1.6%);
-  background-repeat: no-repeat;
-  background-position: right 32px bottom 32px, top;
 }
-div > article:last-child {
+.blue {
   background: url(./images/icon-calculator.svg),
     linear-gradient(0deg, rgba(255, 255, 255, 1) 98.4%, #549ef2 1.6%);
-  background-repeat: no-repeat;
-  background-position: right 32px bottom 32px, top;
 }
-.flx article {
+.card{
+   background-repeat: no-repeat;
+  background-position: right 32px bottom 32px, top;
   padding: 32px 32px;
 }
 h3 {
